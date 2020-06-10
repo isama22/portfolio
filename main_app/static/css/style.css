@@ -4,17 +4,26 @@ body {
 
 }
 
-.background {
-    background-color: #FFE6CC;
+.image {
+    background-image: url("https://i.postimg.cc/bv3P8jyK/Screen-Shot-2020-06-09-at-10-02-54-PM.png");
+    background-size: cover;
+    width: 850px;
+    margin-left: 300px;  
+    border-radius: 35px;  
 
+}
+
+.background {
+    background-color: rgba(255, 230, 204, .75);
     width: 700px;
-    margin-left: 300px;
+    margin-left: 80px;
     margin-top: 30px;
     border: solid 2px;
     border-color: red;
     border-radius: 35px;
-     height: 2200px;
+    height: 2300px;
 }
+
 
 pre {
     color: black;
@@ -34,11 +43,12 @@ h3 {
     margin-left: 20px;
 }
 
-h4 {
+.poe-label {
     margin-left: 20px;
+    height: 20px;
 }
 p {
-    margin-left: 20px;
+
     color: #944440;
 }
 
@@ -49,35 +59,80 @@ p {
     border: solid 2px;
     border-color: #D6B656;
     margin-left: 50px;
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-bottom: 80px;
     border-radius: 10px;
     color: #b4490c;
 }
 
-.featured-projects {
+.list {
+    margin-left: 20px;
+}
+
+.fp-header {
+    color: #944440;
+    margin-left: 40px;
+}
+.poe-div {
     background-color: rgba(255, 232, 140, 0.5);
-    height: 200px;
+    height: 300px;
     width: 600px;
     border: solid 2px;
     border-color: #F26F69;
     margin-left: 50px;
-    margin-top: 100px;
     border-radius: 10px;
     color: #b4490c;
+    display: flex;
 }
 
-.project1 {
-    background-color: #FFD28F;
-    height: 200px;
+.demarcate-div {
+    background-color: rgba(255, 210, 143, .5);
+    height: 300px;
     width: 600px;
     border: solid 2px;
     border-color: #B85450;
     margin-left: 50px;
-    margin-top: 100px;
+    margin-top: 80px;
     border-radius: 10px;
     color: #b4490c;
+    display: flex;
 }
 
+.poe-description {
+    height: 300px;
+    margin-top: 50px;
+
+}
+
+.poe-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.poe-img {
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-top: 60px;
+}
+
+.demarcate-description {
+    height: 300px;
+    margin-left: 20px;
+}
+
+.demarcate-inner-p {
+    margin-left: 30px;
+}
+.demarcate-links {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+}
+.demarcate-img {
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-top: 60px;
+}
 .resume {
     background-color: #FFC496;
     height: 200px;
@@ -89,9 +144,16 @@ p {
     border-radius: 10px;
     z-index: -1;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
+    flex-direction: row;
+
 }
+
+.resumeh4 {
+    margin-left: 20px;
+    margin-top: 80px;
+    color: #B85450;
+}
+
 
 .github {
     background-color: #E39D84;
@@ -103,8 +165,13 @@ p {
     margin-top: 100px;
     border-radius: 10px;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
+    flex-direction: row;
+}
+
+.githubh4 {
+    margin-left: 20px;
+    margin-top: 80px;
+    color: #B46504;
 }
 
 .contact {
@@ -116,19 +183,25 @@ p {
     margin-left: 50px;
     margin-top: 100px;
     border-radius: 10px;
+
     /* display: flex;
     justify-content: flex-start;
     align-items: flex-end; */
 }
 
-.arrow1 {
-    margin-left: 350px;
-    /* margin-bottom: 200px; */
-    z-index: 1;
-}
+
 
 .links {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: #b4490c;
+}
+
+a:hover {
+    color: coral;
 }
