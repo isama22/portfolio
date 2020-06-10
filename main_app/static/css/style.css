@@ -1,45 +1,49 @@
 body {
     background-color: #3333FF;
     font-family: Arial, Helvetica, sans-serif;
-    color: #c46a68;
+
 }
 
 .background {
     background-color: #FFE6CC;
-    height: 2500px;
+
     width: 700px;
     margin-left: 300px;
     margin-top: 30px;
     border: solid 2px;
-    border-color: #D79B00;
+    border-color: red;
     border-radius: 35px;
- 
+     height: 2200px;
 }
 
-.nav {
-    display: flex;
-    justify-content: flex-end;
-    padding: 20px;
-    color: #c46a68;
+pre {
+    color: black;
+    margin-left: 20px;
 }
 
 h1 {
     margin-left: 20px;
     color: black;
 }
-h5 {
-    margin-left: 20px;
-    color: #944440;
+
+.header {
+    margin-left: 40px;
 }
+
 h3 {
+    margin-left: 20px;
+}
+
+h4 {
     margin-left: 20px;
 }
 p {
     margin-left: 20px;
     color: #944440;
 }
+
 .projects {
-    background-color: #FFF2CC;
+    background-color: rgba(255, 242, 204, 1);
     height: 200px;
     width: 600px;
     border: solid 2px;
@@ -47,10 +51,11 @@ p {
     margin-left: 50px;
     margin-top: 100px;
     border-radius: 10px;
+    color: #b4490c;
 }
 
 .featured-projects {
-    background-color: #FFE88C;
+    background-color: rgba(255, 232, 140, 0.5);
     height: 200px;
     width: 600px;
     border: solid 2px;
@@ -58,6 +63,7 @@ p {
     margin-left: 50px;
     margin-top: 100px;
     border-radius: 10px;
+    color: #b4490c;
 }
 
 .project1 {
@@ -69,6 +75,7 @@ p {
     margin-left: 50px;
     margin-top: 100px;
     border-radius: 10px;
+    color: #b4490c;
 }
 
 .resume {
@@ -80,6 +87,10 @@ p {
     margin-left: 50px;
     margin-top: 100px;
     border-radius: 10px;
+    z-index: -1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
 }
 
 .github {
@@ -91,6 +102,9 @@ p {
     margin-left: 50px;
     margin-top: 100px;
     border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
 }
 
 .contact {
@@ -102,4 +116,19 @@ p {
     margin-left: 50px;
     margin-top: 100px;
     border-radius: 10px;
+    /* display: flex;
+    justify-content: flex-start;
+    align-items: flex-end; */
+}
+
+.arrow1 {
+    margin-left: 350px;
+    /* margin-bottom: 200px; */
+    z-index: 1;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
