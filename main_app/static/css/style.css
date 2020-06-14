@@ -3,24 +3,21 @@ body {
     /* background-image: url("https://media.giphy.com/media/lNXqc15cCbQAHPX4FC/giphy.gif");
     background-size: 300%;
     background-repeat: repeat-y; */
+    /* margin-left: 300px; */
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column; */
     font-family: Arial, Helvetica, sans-serif;
-
 }
-
-.main {
-    /* background-image: url("https://i.postimg.cc/bv3P8jyK/Screen-Shot-2020-06-09-at-10-02-54-PM.png");
-    background-size: cover; */
-    background-color: lightgrey;
-    width: 850px;
-    margin-left: 300px;  
-    border-radius: 35px;  
-
+.pre {
+    margin-left: 150px;
+    padding: 50px;
 }
 
 .background {
     background-color: rgba(255, 230, 204, .75);
     width: 700px;
-    margin-left: 40px;
+    margin-left: 350px;
     /* margin-top: 30px; */
     border: solid 2px;
     border-color: aqua;
@@ -32,21 +29,14 @@ body {
 }
 
 
-pre {
-    color: black;
-    /* margin-left: 20px; */
-    display: flex;
-    justify-content: center;
-    margin: 50px;
-}
-
 h1 {
     margin-left: 20px;
     color: black;
 }
 
 .header {
-    margin: 20px;
+   padding: 20px;
+   margin-left: 20px;
 }
 
 h3 {
@@ -86,7 +76,7 @@ p {
 .poe-div {
     /* #ffe88a */
     background-color: #fff1b8;
-    height: 300px;
+    height: 270px;
     width: 600px;
     border: solid 2px;
     border-color: #cfaa3a;
@@ -98,7 +88,7 @@ p {
 
 .demarcate-div {
     background-color: rgba(255, 210, 143, .5);
-    height: 300px;
+    height: 270px;
     width: 600px;
     border: solid 2px;
     border-color: #B85450;
@@ -229,4 +219,8 @@ a {
 
 a:hover {
     color: coral;
+}
+
+.arrow {
+    margin-left: 400px;
 }
