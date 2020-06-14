@@ -1,12 +1,16 @@
 body {
-    background-color: #3333FF;
+    background-color: lightgrey;
+    /* background-image: url("https://media.giphy.com/media/lNXqc15cCbQAHPX4FC/giphy.gif");
+    background-size: 300%;
+    background-repeat: repeat-y; */
     font-family: Arial, Helvetica, sans-serif;
 
 }
 
-.image {
-    background-image: url("https://i.postimg.cc/bv3P8jyK/Screen-Shot-2020-06-09-at-10-02-54-PM.png");
-    background-size: cover;
+.main {
+    /* background-image: url("https://i.postimg.cc/bv3P8jyK/Screen-Shot-2020-06-09-at-10-02-54-PM.png");
+    background-size: cover; */
+    background-color: lightgrey;
     width: 850px;
     margin-left: 300px;  
     border-radius: 35px;  
@@ -16,18 +20,24 @@ body {
 .background {
     background-color: rgba(255, 230, 204, .75);
     width: 700px;
-    margin-left: 80px;
-    margin-top: 30px;
+    margin-left: 40px;
+    /* margin-top: 30px; */
     border: solid 2px;
-    border-color: red;
+    border-color: aqua;
     border-radius: 35px;
-    height: 2300px;
+    height: 2200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 
 pre {
     color: black;
-    margin-left: 20px;
+    /* margin-left: 20px; */
+    display: flex;
+    justify-content: center;
+    margin: 50px;
 }
 
 h1 {
@@ -36,7 +46,7 @@ h1 {
 }
 
 .header {
-    margin-left: 40px;
+    margin: 20px;
 }
 
 h3 {
@@ -53,7 +63,7 @@ p {
 }
 
 .projects {
-    background-color: rgba(255, 242, 204, 1);
+    background-color: #fff2cc;
     height: 200px;
     width: 600px;
     border: solid 2px;
@@ -74,11 +84,12 @@ p {
     margin-left: 40px;
 }
 .poe-div {
-    background-color: rgba(255, 232, 140, 0.5);
+    /* #ffe88a */
+    background-color: #fff1b8;
     height: 300px;
     width: 600px;
     border: solid 2px;
-    border-color: #F26F69;
+    border-color: #cfaa3a;
     margin-left: 50px;
     border-radius: 10px;
     color: #b4490c;
@@ -98,9 +109,14 @@ p {
     display: flex;
 }
 
+.poe-inner-p {
+    margin-top: 30px;
+}
+
 .poe-description {
-    height: 300px;
-    margin-top: 50px;
+    /* height: 300px; */
+    /* margin-top: 50px; */
+    margin-left: 30px;
 
 }
 
@@ -113,6 +129,10 @@ p {
     margin-left: 40px;
     margin-right: 10px;
     margin-top: 60px;
+    border: solid 2px;
+    margin-bottom: 82px;
+    border-color: #cfaa3a;
+    /* border-radius: 35px; */
 }
 
 .demarcate-description {
@@ -121,17 +141,22 @@ p {
 }
 
 .demarcate-inner-p {
-    margin-left: 30px;
+    /* margin-left: 20px; */
+    margin-top: 30px;
 }
 .demarcate-links {
     display: flex;
     flex-direction: row;
-    margin-left: 30px;
+    /* margin-left: 20px; */
+    margin-top: 40px;
 }
 .demarcate-img {
-    margin-left: 40px;
+    margin-left: 30px;
     margin-right: 10px;
     margin-top: 60px;
+    border: solid 2px;
+    margin-bottom: 82px;
+    border-color: #B85450;
 }
 .resume {
     background-color: #FFC496;
@@ -142,7 +167,7 @@ p {
     margin-left: 50px;
     margin-top: 100px;
     border-radius: 10px;
-    z-index: -1;
+    /* z-index: -1; */
     display: flex;
     flex-direction: row;
 
