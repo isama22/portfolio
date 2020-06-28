@@ -1,14 +1,8 @@
 body {
     background-color: lightgrey;
-    /* background-image: url("https://media.giphy.com/media/lNXqc15cCbQAHPX4FC/giphy.gif");
-    background-size: 300%;
-    background-repeat: repeat-y; */
-    /* margin-left: 300px; */
-    /* display: flex;
-    justify-content: center;
-    flex-direction: column; */
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica;
 }
+
 .pre {
     margin-left: 150px;
     padding: 50px;
@@ -18,16 +12,14 @@ body {
     background-color: rgba(255, 230, 204, .75);
     width: 700px;
     margin-left: 350px;
-    /* margin-top: 30px; */
     border: solid 2px;
     border-color: aqua;
     border-radius: 35px;
-    height: 2100px;
+    height: 2600px;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
-
 
 h1 {
     margin-left: 20px;
@@ -35,24 +27,24 @@ h1 {
 }
 
 .header {
-   padding: 20px;
-   margin-left: 20px;
+    padding: 20px;
+    margin-left: 20px;
 }
 
 h3 {
     margin-left: 20px;
 }
 
-.poe-label {
+.second-label {
     margin-left: 20px;
     height: 20px;
 }
-p {
 
+p {
     color: #944440;
 }
 
-.projects {
+/* .projects {
     background-color: #fff2cc;
     height: 200px;
     width: 600px;
@@ -63,7 +55,7 @@ p {
     margin-bottom: 40px;
     border-radius: 10px;
     color: #b4490c;
-}
+} */
 
 .list {
     margin-left: 20px;
@@ -73,56 +65,97 @@ p {
     color: #944440;
     margin-left: 40px;
 }
-.poe-div {
-    /* #ffe88a */
-    background-color: #fff1b8;
+
+.zeroth-div {
+    background-color: #fff6d1;
     height: 270px;
     width: 600px;
     border: solid 2px;
     border-color: #cfaa3a;
     margin-left: 50px;
+    margin-bottom: 80px;
     border-radius: 10px;
     color: #b4490c;
     display: flex;
 }
 
-.demarcate-div {
+.first-div {
+    background-color: #fff1b8;
+    height: 320px;
+    width: 600px;
+    border: solid 2px;
+    border-color: #cfaa3a;
+    margin-left: 50px;
+    margin-bottom: 80px;
+    border-radius: 10px;
+    color: #b4490c;
+    display: flex;
+}
+
+.second-div {
+    background-color: #ffe8b8;
+    height: 270px;
+    width: 600px;
+    border: solid 2px;
+    border-color: #cfaa3a;
+    margin-left: 50px;
+    margin-bottom: 80px;
+    border-radius: 10px;
+    color: #b4490c;
+    display: flex;
+}
+
+.third-div {
     background-color: rgba(255, 210, 143, .5);
     height: 270px;
     width: 600px;
     border: solid 2px;
     border-color: #B85450;
     margin-left: 50px;
-    margin-top: 80px;
     border-radius: 10px;
     color: #b4490c;
     display: flex;
 }
 
-.poe-inner-p {
+.second-inner-p {
     margin-top: 30px;
 }
 
-.poe-description {
-    /* height: 300px; */
-    /* margin-top: 50px; */
+.second-description {
     margin-left: 30px;
-
 }
 
-.poe-links {
+.second-links {
     display: flex;
     flex-direction: row;
 }
 
-.poe-img {
-    margin-left: 40px;
+
+.zeroth-img {
+    margin-left: 10px;
     margin-right: 10px;
     margin-top: 60px;
     border: solid 2px;
-    margin-bottom: 52px;
+    margin-bottom: 54px;
     border-color: #cfaa3a;
-    /* border-radius: 35px; */
+}
+
+.first-img {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 60px;
+    border: solid 2px;
+    margin-bottom: 87px;
+    border-color: #cfaa3a;
+}
+
+.second-img {
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-top: 80px;
+    border: solid 2px;
+    margin-bottom: 100px;
+    border-color: #cfaa3a;
 }
 
 .demarcate-description {
@@ -131,15 +164,15 @@ p {
 }
 
 .demarcate-inner-p {
-    /* margin-left: 20px; */
     margin-top: 30px;
 }
+
 .demarcate-links {
     display: flex;
     flex-direction: row;
-    /* margin-left: 20px; */
     margin-top: 40px;
 }
+
 .demarcate-img {
     margin-left: 30px;
     margin-right: 10px;
@@ -148,6 +181,7 @@ p {
     margin-bottom: 53px;
     border-color: #B85450;
 }
+
 .resume {
     background-color: #FFC496;
     height: 200px;
@@ -157,10 +191,8 @@ p {
     margin-left: 50px;
     margin-top: 100px;
     border-radius: 10px;
-    /* z-index: -1; */
     display: flex;
     flex-direction: row;
-
 }
 
 .resumeh4 {
@@ -168,7 +200,6 @@ p {
     margin-top: 80px;
     color: #B85450;
 }
-
 
 .github {
     background-color: #E39D84;
@@ -198,13 +229,7 @@ p {
     margin-left: 50px;
     margin-top: 100px;
     border-radius: 10px;
-
-    /* display: flex;
-    justify-content: flex-start;
-    align-items: flex-end; */
 }
-
-
 
 .links {
     display: flex;
