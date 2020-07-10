@@ -153,9 +153,10 @@ a:hover {
 }
 
 .work-links-container {
-    margin: 50px;
     display: flex;
     justify-content: center;
+    border-top: solid 1px bisque;
+    padding-top: 40px;
 }
 
 .work-links > a {
